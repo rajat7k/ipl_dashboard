@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import LatestMatch from '../LatestMatch';
 import MatchCard from '../MatchCard';
+import './index.css'
 
 export default class TeamMatches extends Component {
 

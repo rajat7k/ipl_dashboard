@@ -1,0 +1,55 @@
+.latest-match-card-container{
+    display: flex;
+    color: #ffffff;
+    background-color: #1e293b;
+}
+p{
+    font-size: 12px;
+}
+.competing-team-detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.competing-team-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.competing-team-logo{
+    height: 150px;
+}
+
+.competing-team-name{
+    font-size: 25px;
+    font-weight: 500;
+}
+.match-date{
+    font-size: 16px;
+    font-weight: 400;
+}
+.venue-detail{
+    width: 150px;
+}
+
+.match-status-detail{
+    display:flex;
+    flex-direction: column;
+    line-height: 0px;
+    text-align: right;
+    margin: 20px;
+}
+h4{
+    margin: 15px 0 10px 0;
+}
+
+@media screen and (max-width:500px) {
+    .latest-match-card-container{
+        flex-direction: column;
+    }
+}

@@ -26,3 +26,9 @@
     flex-wrap: wrap;
     margin-left: 5%;
 }
+.page-not-found{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 400px;
+}
